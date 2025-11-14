@@ -21,7 +21,7 @@ Run ingestion scripts:
 	python3 scripts/ingest_sqlalchemy.py
 Open the SQLite database:
 
-	3.	sqlite3 db/ecommerce.db
+	3.	sqlite3 db/ecom.db
 Run analytics:
 
 	4.	.read analytics/top_customers.sql
