@@ -1,0 +1,2 @@
+customers --< orders --< order_items >-- products
+orders --< payments
