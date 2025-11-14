@@ -52,7 +52,7 @@ tables = {
 print("\nCreating tables...")
 for table, schema in tables.items():
     cur.execute(f"CREATE TABLE IF NOT EXISTS {table} ({schema});")
-    print(f"✔ Table created: {table}")
+    print(f"Table created: {table}")
 
 
 print("\nInserting data from CSV...")
